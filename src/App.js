@@ -163,33 +163,33 @@ function App() {
         {arr ?<list>
         <li class='flex flex-cols mb-2'>
           <label class='block w-32 mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Buying Relics & Crafting Superior:</label>
-          <input value={excavsuporeha} class='w-52 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
-          <div class='w-72 text-sm font-medium text-white' >Compares buying 20 Superior Orehas vs. Buying Relics and crafting it yourself.</div>
+          <input value={excavsuporeha} class='h-12 w-48 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
+          <div class='w-80 text-sm font-medium text-white' >Compares buying 20 Superior Orehas vs. Buying Relics and crafting it yourself.</div>
         </li>
         <li class='flex flex-cols mb-2'>
           <label class='block w-32 mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Buying Fish & Crafting Superior: </label>
-          <input value={fishsuporeha} class='w-52 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
-          <div class='w-72 text-sm font-medium text-white' >Compares buying 20 Superior Orehas vs. Buying Fish and crafting it yourself.</div>
+          <input value={fishsuporeha} class='h-12 w-48 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
+          <div class='w-80 text-sm font-medium text-white' >Compares buying 20 Superior Orehas vs. Buying Fish and crafting it yourself.</div>
         </li>
         <li class='flex flex-cols mb-2'>
           <label class='w-32 block mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Buying Relics & Crafting Prime: </label>
-          <input value={excavprimeoreha} class='w-52 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
-          <div class='w-72 text-sm font-medium text-white' >Compares buying 15 Prime Orehas vs. Buying Relics and crafting it yourself.</div>
+          <input value={excavprimeoreha} class='h-12 w-48 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
+          <div class='w-80 text-sm font-medium text-white' >Compares buying 15 Prime Orehas vs. Buying Relics and crafting it yourself.</div>
         </li>
         <li class='flex flex-rcols mb-2'>
           <label class='w-32 block mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Buying Fish & Crafting Prime: </label>
-          <input value={fishprimeoreha} class='w-52 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
-          <div class='w-72 text-sm font-medium text-white' >Compares buying 15 Prime Orehas vs. Buying Fish and crafting it yourself.</div>
+          <input value={fishprimeoreha} class='h-12 w-48 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
+          <div class='w-80 text-sm font-medium text-white' >Compares buying 15 Prime Orehas vs. Buying Fish and crafting it yourself.</div>
         </li>
         <li class='flex flex-cols mb-2'>
           <label class='w-32 block mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Selling Relic & Buy Fish & Craft Superior: </label>
-          <input value={sellexavsup} class='h-12 w-52 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
-          <div class='w-72 text-sm font-medium text-white' >Profit of selling Relics, buying fish, then crafting 20 Superior Orehas </div>
+          <input value={sellexavsup} class='h-12 w-48 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
+          <div class='w-80 text-sm font-medium text-white' >Profit of selling Relics, buying fish, then crafting 20 Superior Orehas </div>
         </li>
         <li class='flex flex-cols mb-2'>
-          <label class='w-36 block mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Selling Relic & Buy Fish & Craft Prime: </label>
-          <input value={sellexavprime} class='w-52 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
-          <div class='w-72 text-sm font-medium text-white' >Profit of selling Relics, buying fish, then crafting 15 Prime Orehas </div>
+          <label class='w-32 block mb-2 text-sm font-medium text-gray-900 dark:text-white px-2'>Selling Relic & Buy Fish & Craft Prime: </label>
+          <input value={sellexavprime} class='h-12 w-48 mb-2 mr-2 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 cursor-not-allowed dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500' disabled />
+          <div class='w-80 text-sm font-medium text-white' >Profit of selling Relics, buying fish, then crafting 15 Prime Orehas </div>
 
         </li>
         </list>
